@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="gl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>Do prompt ao sistema · Obradoiro de enxeñería de software con LLMs</title>
+    <meta
+      name="description"
+      content="Obradoiro práctico de 4 horas para developers que xa usan IA pero queren un proceso maduro e repetible. A Coruña (18 maio) e Vigo (proximamente)."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Do prompt ao sistema · Obradoiro de enxeñería de software con LLMs" />
+    <meta
+      property="og:description"
+      content="Obradoiro práctico para developers que xa usan IA pero queren dar o salto a un fluxo de traballo maduro. A Coruña e Vigo."
+    />
+    <meta property="og:locale" content="gl_ES" />
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Saltar ao contido</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="AI Systems for Developers — inicio">
+          <span class="brand-mark" aria-hidden="true">/</span>
+          <span class="brand-text">AI Systems for Developers</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="#para-ti">Para ti?</a>
+          <a href="#aprender">O que aprenderás</a>
+          <a href="#axenda">Axenda</a>
+          <a href="#datas">Datas</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a href="#datas" class="btn btn-primary btn-sm">Reservar praza</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============================================================
+           HERO
+      ============================================================= -->
+      <section class="hero" id="top">
+        <div class="container hero-inner">
+          <span class="eyebrow">Obradoiro · A Coruña 18 maio · Vigo proximamente</span>
+
+          <h1 class="hero-title">
+            Do prompt ao sistema
+            <span class="hero-subtitle">Enxeñería de software con LLMs</span>
+          </h1>
+
+          <p class="lead">
+            Aprende a construír un proceso maduro onde a IA escribe, proba, despregue e
+            documenta a maior parte do teu código — sen perder o control de calidade.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#datas" class="btn btn-primary">Reservar a miña praza →</a>
+            <a href="#axenda" class="btn btn-ghost">Ver axenda</a>
+          </div>
+
+          <ul class="hero-meta" aria-label="Detalles do obradoiro">
+            <li><span class="meta-label">Formato</span><span class="meta-value">Presencial · 4 h prácticas</span></li>
+            <li><span class="meta-label">Cidades</span><span class="meta-value">A Coruña · Vigo</span></li>
+            <li><span class="meta-label">Prazas</span><span class="meta-value">Limitadas</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           ¿É PARA TI?
+      ============================================================= -->
+      <section class="section" id="para-ti">
+        <div class="container">
+          <p class="section-eyebrow">01 · Para quen é</p>
+          <h2 class="section-title">Este obradoiro é para ti se...</h2>
+
+          <div class="grid grid-2">
+            <div class="card">
+              <h3 class="card-title">Si, é para ti</h3>
+              <ul class="check-list">
+                <li>Xa usas <strong>Cursor, Copilot ou Claude</strong> no teu día a día como developer.</li>
+                <li>Sentes que estás no <strong>20 % do potencial</strong> que a IA pode ofrecerche.</li>
+                <li>Queres un <strong>proceso repetible</strong>, non trucos soltos.</li>
+                <li>Lideras (ou queres liderar) a <strong>adopción da IA</strong> no teu equipo.</li>
+              </ul>
+            </div>
+
+            <div class="card card-muted">
+              <h3 class="card-title">Non, mellor outro día</h3>
+              <ul class="cross-list">
+                <li>Nunca escribiches código cun LLM.</li>
+                <li>Buscas un curso teórico sobre como funcionan os modelos por dentro.</li>
+                <li>Queres unha demo comercial dunha ferramenta concreta.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           O PROBLEMA
+      ============================================================= -->
+      <section class="section section-bordered">
+        <div class="container">
+          <p class="section-eyebrow">02 · O problema</p>
+          <h2 class="section-title">Recoñeces algún destes síntomas?</h2>
+
+          <ul class="symptom-list">
+            <li>Copias e pegas prompts dun documento a outro <strong>sen criterio</strong>.</li>
+            <li>Os resultados da IA son <strong>inconsistentes</strong> entre membros do equipo.</li>
+            <li>Non tes forma de medir <strong>canto código</strong> está a escribir realmente a IA.</li>
+            <li>O teu equipo non ten un <strong>proceso común</strong> de traballo coa IA.</li>
+            <li>Sabes que hai algo máis alá... pero <strong>non sabes por onde empezar</strong>.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           O QUE APRENDERÁS
+      ============================================================= -->
+      <section class="section" id="aprender">
+        <div class="container">
+          <p class="section-eyebrow">03 · Resultados</p>
+          <h2 class="section-title">
+            En 4 horas pasarás de <span class="muted">usar IA</span> a
+            <span class="emph">deseñar sistemas con IA</span>
+          </h2>
+
+          <div class="grid grid-3">
+            <article class="outcome">
+              <span class="outcome-num">01</span>
+              <h3 class="outcome-title">Deseñar prompts coma APIs</h3>
+              <p>Pasarás de conversar coa IA a especificar contextos, restricións e contratos.</p>
+            </article>
+
+            <article class="outcome">
+              <span class="outcome-num">02</span>
+              <h3 class="outcome-title">Definir un proceso de equipo</h3>
+              <p>Levarás un fluxo de traballo aplicable ao teu equipo desde o vindeiro luns.</p>
+            </article>
+
+            <article class="outcome">
+              <span class="outcome-num">03</span>
+              <h3 class="outcome-title">Identificar o automatizable</h3>
+              <p>Saberás que partes do teu pipeline son automatizables hoxe e cales aínda non.</p>
+            </article>
+
+            <article class="outcome">
+              <span class="outcome-num">04</span>
+              <h3 class="outcome-title">Construír un sistema con axentes</h3>
+              <p>Montarás un sistema que tome unha tarefa e devolva un PR revisable.</p>
+            </article>
+
+            <article class="outcome">
+              <span class="outcome-num">05</span>
+              <h3 class="outcome-title">Avaliar o estado da arte</h3>
+              <p>Aprenderás que ferramentas usar, cales ignorar e por que.</p>
+            </article>
+
+            <article class="outcome">
+              <span class="outcome-num">06</span>
+              <h3 class="outcome-title">Anticipar o vindeiro ano</h3>
+              <p>Verás o roadmap dos próximos 12-18 meses para non quedar atrás.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           AXENDA
+      ============================================================= -->
+      <section class="section section-bordered" id="axenda">
+        <div class="container">
+          <p class="section-eyebrow">04 · Axenda</p>
+          <h2 class="section-title">Un día, catro horas de práctica</h2>
+
+          <ol class="agenda">
+            <li class="agenda-item">
+              <span class="agenda-time">10:00</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Apertura · Estado da arte</h3>
+                <p>Estado da arte dos sistemas de desenvolvemento con IA.</p>
+              </div>
+            </li>
+
+            <li class="agenda-item agenda-pause">
+              <span class="agenda-time">11:45</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Pausa café</h3>
+              </div>
+            </li>
+
+            <li class="agenda-item">
+              <span class="agenda-time">12:15</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">O proceso</h3>
+                <p>Especificación → plan → implementación → revisión.</p>
+              </div>
+            </li>
+
+            <li class="agenda-item">
+              <span class="agenda-time">13:00</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Desenvolvemento de produto guiado por IA</h3>
+                <p>Caso práctico de extremo a extremo.</p>
+              </div>
+            </li>
+
+            <li class="agenda-item agenda-pause">
+              <span class="agenda-time">14:00</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Xantar</h3>
+              </div>
+            </li>
+
+            <li class="agenda-item">
+              <span class="agenda-time">15:00</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Networking + dúbidas individuais</h3>
+                <p>Tempo para resolver casos concretos do teu día a día.</p>
+              </div>
+            </li>
+
+            <li class="agenda-item agenda-end">
+              <span class="agenda-time">16:00</span>
+              <div class="agenda-body">
+                <h3 class="agenda-title">Peche</h3>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           METODOLOXÍA
+      ============================================================= -->
+      <section class="section">
+        <div class="container">
+          <p class="section-eyebrow">05 · Metodoloxía</p>
+          <h2 class="section-title">Como traballamos</h2>
+
+          <div class="grid grid-3">
+            <div class="feature">
+              <h3 class="feature-title">Práctico</h3>
+              <p>Trae o teu portátil. Sairás cun sistema funcionando, non con apuntamentos.</p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-title">Grupo reducido</h3>
+              <p>Prazas limitadas para garantir atención individual e debate de calidade.</p>
+            </div>
+            <div class="feature">
+              <h3 class="feature-title">Materiais</h3>
+              <p>Levarás un repositorio de exemplo e a documentación completa do día.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           DATAS E PREZOS
+      ============================================================= -->
+      <section class="section section-bordered" id="datas">
+        <div class="container">
+          <p class="section-eyebrow">06 · Datas e prezos</p>
+          <h2 class="section-title">Escolle a túa edición</h2>
+
+          <div class="grid grid-2">
+            <article class="date-card">
+              <header class="date-card-header">
+                <span class="date-tag date-tag-live">Inscricións abertas</span>
+                <h3 class="date-city">A Coruña</h3>
+                <p class="date-date">Luns · 18 de maio</p>
+              </header>
+
+              <dl class="date-details">
+                <div>
+                  <dt>Lugar</dt>
+                  <dd>Hi Coruña<br />Av. Porto da Coruña 3<br />15003 A Coruña</dd>
+                </div>
+                <div>
+                  <dt>Horario</dt>
+                  <dd>10:00 – 16:00</dd>
+                </div>
+              </dl>
+
+              <ul class="price-list">
+                <li class="price">
+                  <span class="price-label">Entrada xeral</span>
+                  <span class="price-value">100 €</span>
+                </li>
+                <li class="price price-discount">
+                  <span class="price-label">Socias e socios <span class="badge">Startup Galicia</span></span>
+                  <span class="price-value">75 €</span>
+                </li>
+              </ul>
+
+              <a
+                class="btn btn-primary btn-block"
+                href="https://www.eventbrite.es/o/startup-galicia-18746612086"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Reservar a miña praza →</a
+              >
+            </article>
+
+            <article class="date-card">
+              <header class="date-card-header">
+                <span class="date-tag">Proximamente</span>
+                <h3 class="date-city">Vigo</h3>
+                <p class="date-date">Data e ubicación por anunciar</p>
+              </header>
+
+              <dl class="date-details">
+                <div>
+                  <dt>Lugar</dt>
+                  <dd>Por anunciar</dd>
+                </div>
+                <div>
+                  <dt>Horario</dt>
+                  <dd>10:00 – 16:00</dd>
+                </div>
+              </dl>
+
+              <ul class="price-list">
+                <li class="price">
+                  <span class="price-label">Entrada xeral</span>
+                  <span class="price-value">100 €</span>
+                </li>
+                <li class="price price-discount">
+                  <span class="price-label">Socias e socios <span class="badge">Startup Galicia</span></span>
+                  <span class="price-value">75 €</span>
+                </li>
+              </ul>
+
+              <a
+                class="btn btn-ghost btn-block"
+                href="https://www.eventbrite.es/o/startup-galicia-18746612086"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Apuntarme á lista de agarda →</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           INSTRUTORES
+      ============================================================= -->
+      <section class="section" id="instrutores">
+        <div class="container">
+          <p class="section-eyebrow">07 · Instrutores</p>
+          <h2 class="section-title">Quen che vai guiar</h2>
+
+          <div class="instructors-grid">
+            <article class="instructor-card">
+              <img
+                class="instructor-photo"
+                src="assets/instructors/iago-lastra.png"
+                alt="Iago Lastra"
+                width="160"
+                height="160"
+                loading="lazy"
+              />
+              <div class="instructor-card-body">
+                <h3 class="instructor-name">Iago Lastra</h3>
+                <p class="instructor-role">Frontend Architecture · Docente · Autor</p>
+                <p class="instructor-bio">
+                  Desenvolvedor de software durante 15 anos en empresas como
+                  <strong>Carto</strong>, <strong>Apto Payments</strong> ou
+                  <strong>Quobis</strong>. Docente, investigador e autor de varios
+                  libros sobre arquitectura de software en frontend.
+                </p>
+                <a
+                  class="instructor-link"
+                  href="https://www.linkedin.com/in/iagolast/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Perfil de LinkedIn de Iago Lastra (ábrese nunha pestana nova)"
+                  >LinkedIn <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+
+            <article class="instructor-card">
+              <img
+                class="instructor-photo"
+                src="assets/instructors/moises-vilar.png"
+                alt="Moisés Vilar"
+                width="160"
+                height="160"
+                loading="lazy"
+              />
+              <div class="instructor-card-body">
+                <h3 class="instructor-name">Moisés Vilar</h3>
+                <p class="instructor-role">Product Engineering · Liderado técnico</p>
+                <p class="instructor-bio">
+                  18 anos de experiencia dirixindo o desenvolvemento de produtos
+                  dixitais en empresas como <strong>Inditex</strong>,
+                  <strong>Packlink</strong> ou <strong>Factorial</strong>.
+                </p>
+                <a
+                  class="instructor-link"
+                  href="https://www.linkedin.com/in/moisesvilar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Perfil de LinkedIn de Moisés Vilar (ábrese nunha pestana nova)"
+                  >LinkedIn <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+
+            <!--
+              Engadir aquí novos <article class="instructor-card"> seguindo o mesmo
+              patrón. As fotos van en assets/instructors/<nome-apelido>.png (cadradas,
+              recomendado >= 400x400 px).
+            -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           ORGANIZADO POR
+      ============================================================= -->
+      <section class="section section-bordered">
+        <div class="container">
+          <p class="section-eyebrow">08 · Organizado por</p>
+          <div class="logo-row logo-row-single">
+            <a
+              class="organizer-logo"
+              href="https://www.startup.gal/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Startup Galicia (ábrese nunha pestana nova)"
+            >
+              <img
+                src="assets/logos/startup-galicia.jpg"
+                alt="Startup Galicia"
+                width="784"
+                height="1024"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           ENTIDADES COLABORADORAS
+      ============================================================= -->
+      <section class="section">
+        <div class="container">
+          <p class="section-eyebrow">09 · Entidades colaboradoras</p>
+          <h2 class="section-title section-title-sm">Coa colaboración de</h2>
+
+          <div class="logo-row">
+            <a
+              class="collaborator-logo"
+              href="https://humanintelligencehub.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Hi · Human Intelligence Hub (ábrese nunha pestana nova)"
+            >
+              <img
+                src="assets/logos/colaboradores/hi-coruna.jpg"
+                alt="Hi · Human Intelligence Hub"
+                width="1024"
+                height="576"
+                loading="lazy"
+              />
+            </a>
+
+            <a
+              class="collaborator-logo collaborator-logo--invert"
+              href="https://docuten.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Docuten (ábrese nunha pestana nova)"
+            >
+              <img
+                src="assets/logos/colaboradores/docuten.png"
+                alt="Docuten"
+                width="512"
+                height="512"
+                loading="lazy"
+              />
+            </a>
+
+            <a
+              class="collaborator-logo"
+              href="https://marosavat.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Marosa (ábrese nunha pestana nova)"
+            >
+              <img
+                src="assets/logos/colaboradores/marosa.jpg"
+                alt="Marosa"
+                width="1024"
+                height="576"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           FAQ
+      ============================================================= -->
+      <section class="section section-bordered" id="faq">
+        <div class="container">
+          <p class="section-eyebrow">10 · FAQ</p>
+          <h2 class="section-title">Preguntas frecuentes</h2>
+
+          <div class="faq">
+            <details>
+              <summary>Necesito coñecementos previos de IA?</summary>
+              <p>
+                Si. Este obradoiro asume que xa usas IA para programar (Cursor, Copilot,
+                Claude ou similar). Non ensinamos os fundamentos básicos.
+              </p>
+            </details>
+
+            <details>
+              <summary>Que ferramentas necesito traer?</summary>
+              <p>
+                Portátil propio cun editor moderno (recomendado: Cursor ou VS Code).
+                Detalles concretos comunicaranse aos inscritos por correo antes do día do
+                obradoiro.
+              </p>
+            </details>
+
+            <details>
+              <summary>É presencial ou en liña?</summary>
+              <p>
+                Presencial. As edicións de A Coruña (Hi Coruña) e Vigo realízanse en
+                aulas físicas.
+              </p>
+            </details>
+
+            <details>
+              <summary>Que stack tecnolóxico se usa?</summary>
+              <p>
+                O contido é agnóstico ao stack. Os exemplos en directo son en linguaxes
+                comúns (TypeScript, Python) pero os conceptos son aplicables a calquera
+                stack.
+              </p>
+            </details>
+
+            <details>
+              <summary>Hai descontos para equipos?</summary>
+              <p>
+                Para inscricións de equipo, contacta directamente a través de Eventbrite
+                e estudaremos cada caso.
+              </p>
+            </details>
+
+            <details>
+              <summary>Que pasa se non podo asistir?</summary>
+              <p>
+                A política de devolución é a estándar de Eventbrite. Consulta as
+                condicións na páxina do evento.
+              </p>
+            </details>
+
+            <details>
+              <summary>Recibirei algún certificado?</summary>
+              <p>
+                Si, ao remate do obradoiro entrégase un certificado de asistencia
+                personalizado.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================================================
+           CTA FINAL
+      ============================================================= -->
+      <section class="cta-final">
+        <div class="container">
+          <h2 class="cta-title">Listo para pasar do prompt ao sistema?</h2>
+          <p class="cta-sub">
+            Reserva a túa praza para a edición da Coruña ou apúntate á lista de agarda de
+            Vigo.
+          </p>
+          <div class="cta-actions">
+            <a
+              class="btn btn-primary"
+              href="https://www.eventbrite.es/o/startup-galicia-18746612086"
+              target="_blank"
+              rel="noopener noreferrer"
+              >A Coruña · 18 maio →</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://www.eventbrite.es/o/startup-galicia-18746612086"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Vigo · lista de agarda →</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">AI Systems for Developers · Obradoiro</p>
+        <p class="footer-meta">
+          Feito en Galicia ·
+          <a
+            href="https://github.com/DavidPombar/AI-Systems-for-Developers-Workshop"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Código no GitHub</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
