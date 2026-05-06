@@ -1,4 +1,4 @@
-# AI Systems for Developers — Landing do obradoiro
+# A Cousa da IA — Landing do obradoiro
 
 Landing page estática para o obradoiro **"Do prompt ao sistema · Enxeñería de
 software con LLMs"**.
