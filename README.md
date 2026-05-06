@@ -3,7 +3,7 @@
 Landing page estática para o obradoiro **"Do prompt ao sistema · Enxeñería de
 software con LLMs"**.
 
-> Sitio: [https://davidpombar.github.io/AI-Systems-for-Developers-Workshop/](https://davidpombar.github.io/AI-Systems-for-Developers-Workshop/)
+> Sitio: [https://davidpombar.github.io/A-Cousa-da-IA/](https://davidpombar.github.io/A-Cousa-da-IA/)
 
 ---
 
@@ -69,7 +69,7 @@ Unha vez fusionado o PR a `main`:
 2. En **Source** selecciona `Deploy from a branch`.
 3. Branch: `main`, carpeta: `/ (root)`. Garda.
 4. En 1-2 minutos a páxina estará dispoñible en
-   `https://davidpombar.github.io/AI-Systems-for-Developers-Workshop/`.
+   `https://davidpombar.github.io/A-Cousa-da-IA/`.
 
 Cada `push` a `main` redespregará automáticamente.
 
